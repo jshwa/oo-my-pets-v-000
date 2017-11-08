@@ -53,6 +53,11 @@ class Owner
   end
 
   def sell_pets
+    @pets.each do |type,names|
+      names.each do |pet|
+        pet = ""
+      end
+    end
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
