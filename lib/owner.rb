@@ -55,7 +55,6 @@ class Owner
   def sell_pets
     @pets.each do |type,names|
       names = ""
-      end
     end
 
   end
