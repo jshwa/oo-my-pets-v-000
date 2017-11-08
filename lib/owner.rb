@@ -58,7 +58,7 @@ class Owner
         pet = ""
       end
     end
-    @pets = {fishes: [], cats: [], dogs: []}
+  
   end
 
   def list_pets
