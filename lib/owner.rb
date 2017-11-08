@@ -60,7 +60,7 @@ class Owner
     end
     @pets.each do |type,names|
       names.clear
-    
+
   end
 
   def list_pets
