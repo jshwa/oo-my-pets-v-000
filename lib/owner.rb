@@ -57,14 +57,11 @@ class Owner
       names = ""
       end
     end
-  
+
   end
 
   def list_pets
-    @pets.each do |type,names|
-      names.each {|pet| puts pet}
-    end
-
+    puts "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dogs(s), and #{@pets[:cats].length} cats(s)."
   end
 
 end
