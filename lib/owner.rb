@@ -30,4 +30,3 @@ class Owner
     @pets[fishes][] << fish
   end
 end
-
